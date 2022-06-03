@@ -1,0 +1,6 @@
+Std. Code	Name	Group Name
+fw19_1090	Sanjay Gupta	35
+fw19_1274	Suraj	
+fw19_0681	Krishna Keshav	
+fw19_0751	Nishant	
+fw19_0649	Lovely Upadhyay	
