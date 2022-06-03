@@ -5,8 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      
+        #behind{
+            width:27%;
+            height: 720px;
+            /* border:1px solid red; */
+            margin-inline: auto;
+            margin-top:40px;
+            border-radius: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+        }
+        #div2{
+           padding-top:20px;
+           text-align: center;
+         
+         
+         
+         
+       margin-inline:auto;
+       margin-top:10px;
+       justify-content:center ;
+       align-items: center;
+        }
+        #div2>h1{
+            font-weight: bold;
+           font-size:70px;
+        }
+        #div2>input{
+             
+             border-top:0px solid transparent;
+  border-right:0px solid transparent;
+  border-bottom: 1px solid black;
+  border-left: 0px solid transparent;
+            
+            width:370px;
+            height:50px;
+            font-size:20px;
+            
+        }
+        #div2>button{
+            margin-top: 20px;
+            width:330px;
+            height: 50px;
+            color: white;
+            background-color: black;
+            font-size:20px;
+        }
+    #div3{
+        border:0px solid blue;
+        justify-content: space-between ;
+        align-items: center;
+        display: flex;
+        width:160px;
+        margin-inline:auto;
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    #div4{
+        justify-content: center;
+        align-items: center;
+        border:0px solid blue;
+        width:280px;
+        display: flex;
+        margin-inline: auto;
+        margin-top: -15px;
+        font-size: 21px;
+      
+    }
+    #div4>p:nth-child(2){
+        color: grey;
+        margin-left:5px;
+    }
+    #div3>p:nth-child(2){
+        color: grey;
+    }
+    </style>
 </head>
 <body>
-    <img src="https://uxdt.nic.in/wp-content/uploads/2020/08/login_form_4_p.png?x38465">
+    <!-- <img src="https://uxdt.nic.in/wp-content/uploads/2020/08/login_form_4_p.
+    png?x38465"> -->
+    <div id="behind">
+   
+        <div id ="div2">
+            <h1>Login</h1>
+            <input type="text"  placeholder="Email" >
+            <br></br>
+            <input type="text"  placeholder="password">
+            <br></br>
+            <button>Login</button>
+        </div>
+       
+       
+    <div id="div3">
+        <p>Forget</p>
+        <p>password?</p>
+    </div>
+    <div id="div4">
+        <p>Don't have an account ?</p>
+        <p>Sign up</p>
+    </div>
+</div>
 </body>
 </html>
