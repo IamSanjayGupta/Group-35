@@ -1,5 +1,7 @@
-Std. Code	Name	Group Name
-fw19_1090	Sanjay Gupta	35
+Group 35
+
+Std. Code	Name	
+fw19_1090	Sanjay Gupta	
 fw19_1274	Suraj	
 fw19_0681	Krishna Keshav	
 fw19_0751	Nishant	
