@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        #cont {
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         #cont {
             width: 100%;
             /* border: 2px solid red; */
             height: 50px;
@@ -16,9 +15,9 @@
             align-items: center;
             background-color: #1c2837;
             border-radius: 20px;
-        }
+         }
 
-        #cont>div:nth-child(1) {
+         #cont > div:nth-child(1) {
             width: 10%;
             /* border: 2px solid green; */
             height: 40px;
@@ -26,36 +25,38 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+         }
 
-        #cont>div:nth-child(2) {
+         #cont > div:nth-child(2) {
             width: 40%;
             /* border: 2px solid green; */
             height: 40px;
             display: flex;
             justify-content: space-evenly;
-        }
+         }
 
-        #cont>div:nth-child(2)>div {
+         #cont > div:nth-child(2) > div {
             /* border: 2px solid black; */
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
-        }
-    </style>
-</head>
+         }
+         a {
+            color: white;
+         }
+      </style>
+   </head>
 
-<body>
-    <div id="cont">
-        <div>Reebok</div>
-        <div>
-            <div>Men</div>
+   <body>
+      <div id="cont">
+         <div>Reebok</div>
+         <div>
+            <div><a href="mens.html">Men</a></div>
             <div>Women</div>
-            <div>Login</div>
-            <div>Signup</div>
-        </div>
-    </div>
-</body>
-
+            <div><a href="login.html">Login</a></div>
+            <div><a href="SignUpPage.html">Signup</a></div>
+         </div>
+      </div>
+   </body>
 </html>
