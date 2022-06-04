@@ -1,41 +1,100 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menspage</title>
+    <title>Document</title>
     <style>
-        #container {
-            height: 630px;
-            width: 100%;
-            background-color: black;
+        #cont {
+            width: 70%;
+            /* border: 2px solid red; */
+            /* height: 600px; */
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
         }
         
-        #container img {
-            height: 590px;
-            width: 90%;
-            padding: 20px 50px 20px 65px;
+        #cont>div {
+            width: 40%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #cont>div>img {
+            margin: auto;
+            width: 50%;
+            height: 50%;
+            /* border: 2px solid green; */
+            display: block;
+            margin: 4px 4px 0px 80px;
+            /* margin: auto; */
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #cont>div>h3 {
+            /* border: 2px solid red; */
+            font-size: 25px;
+            margin: 7px;
+        }
+        
+        #cont>div>h3+p {
+            /* border: 2px solid red; */
+            margin: 7px;
+            font-size: 40px;
+            color: grey;
+        }
+        
+        #cont>div>div {
+            width: 50%;
+            /* border: 2px solid red; */
+            display: flex;
+            /* margin: 3px; */
+            justify-content: space-evenly;
+        }
+        
+        #cont>div>div>p:nth-child(1) {
+            font-weight: bold;
+        }
+        
+        #cont>div>div>p:nth-child(2) {
+            text-decoration: line-through;
+        }
+        
+        #cont>div>div>p:nth-child(3) {
+            color: green;
         }
     </style>
 </head>
 
 <body>
-    <div id="container">
+    <div id="cont">
         <div>
-            <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-23/mensPage_879698.png" alt="No Image">
+            <img src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPPAUSE-BLACK-PAUS57747861200F37/1562877340930_1..jpg?imwidth=320&impolicy=hq" />
+            <h1>Pause</h1>
+            <p>Pause Men Black Solid Shrug</p>
+            <div>
+                <p>&#8377;359</p>
+                <p>&#8377; 1499</p>
+                <p>-76%</p>
+            </div>
+
+        </div>
+        <div>
+            <img src="https://cache.mrporter.com/variants/images/20346390236158136/in/w560_q60.jpg" />
+            <h1>JUBINATION</h1>
+            <p>Men wool Sleevless Sweater Pack of 1 </p>
+            <div>
+                <p>&#8377;799</p>
+                <p>&#8377; 1499</p>
+                <p>-47%</p>
+            </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
 </body>
 
 </html>
